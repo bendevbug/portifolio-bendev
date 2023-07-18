@@ -13,9 +13,6 @@ export const Container = styled('main', {
     gap: '10rem',
 
 
-    background: 'linear-gradient(162deg, #373737 0%, #121312 100%)',
-
-
     h1: {
         fontSize: '5.5rem'
     }
@@ -23,7 +20,13 @@ export const Container = styled('main', {
 
 export const Dados = styled('section', {
     p: {
-        fontSize: '1.5rem'
+        fontFamily: 'Overpass, sans-serif',
+        fontSize: '1.5rem',
+
+        span: {
+            color: '#32a852',
+            fontWeight: 'bold'
+        }
     }
 })
 
