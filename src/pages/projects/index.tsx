@@ -4,11 +4,16 @@ import Image from "next/image";
 
 import gitIcon from '../../assets/github.svg'
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Projects() {
 
     return (
         <>
+            <Head>
+                <title>BenDev Portifólio</title>
+                <link rel="icon" href="/favicon.svg" />
+            </Head>
             <Navbar />
             <Container>
                 <div>

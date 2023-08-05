@@ -9,10 +9,15 @@ import python from '../../assets/python.svg'
 import react from '../../assets/react.svg'
 import mongodb from '../../assets/mongodb.svg'
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Skills() {
     return(
         <>
+            <Head>
+                <title>BenDev Portifólio</title>
+                <link rel="icon" href="/favicon.svg" />
+            </Head>
             <Navbar />
             <Container>
                 <h1>Desenvolvimento focado em:</h1>

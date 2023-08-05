@@ -6,11 +6,17 @@ import Link from "next/link";
 import twitter from '../../assets/twitter.svg'
 import linkedin from '../../assets/linkedin.svg'
 import github from '../../assets/githubMidia.svg'
+import Head from "next/head";
+import { title } from "process";
 
 
 export default function socialMedia() {
     return (
         <>
+            <Head>
+                <title>BenDev Portifólio</title>
+                <link rel="icon" href="/favicon.svg" />
+            </Head>
             <Navbar />
             <Container>
                 
