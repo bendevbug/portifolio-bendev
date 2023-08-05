@@ -1,4 +1,5 @@
 import { globalCss } from '@stitches/react';
+import { inherits } from 'util';
 
 export const GlobalStyle = globalCss({
     body: {
@@ -9,5 +10,9 @@ export const GlobalStyle = globalCss({
         margin: '0',
         boxSizing: 'border-box',
     },
+    a: {
+        textDecoration: 'none',
+        color: 'inherit'
+    }
 
 })
