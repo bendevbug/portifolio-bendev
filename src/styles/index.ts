@@ -14,7 +14,8 @@ export const Container = styled('main', {
 
 
     h1: {
-        fontSize: '5.5rem'
+        fontSize: '5.5rem',
+        margin: '0 0 2.5rem 0'
     }
 })
 
