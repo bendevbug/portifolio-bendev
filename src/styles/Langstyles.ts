@@ -14,10 +14,20 @@ export const Container = styled('main', {
 
     fontFamily: 'Overpass, sans-serif',
 
-    div: {
+    '@media (min-width: 320px)': {
+        flexDirection: 'column',
+        flexWrap: 'nowrap',
+            h1: {
+                fontSize: '1.5em',
+                margin: '0 0 0 0.5em'
+            }
 
+    },
+
+    div: {
         textAlign: 'center',
 
+        
         
         button: {
             background: '#32a852',
@@ -29,6 +39,12 @@ export const Container = styled('main', {
 
             width: '8rem',
             height: '2.5rem',
+
+            '@media (min-width: 320px)': {
+                width: '6rem',
+                height: '2rem',
+                margin: '0 0 0 0.5em'
+            },
             a: {
                 color: 'white',
                 textDecoration: 'none',
@@ -43,7 +59,12 @@ export const Container = styled('main', {
             }
         },
         img: {
-            margin: '0 5rem 0 0'
+            margin: '0 5rem 0 0',
+
+            '@media (min-width: 320px)': {
+                width: '4.5em',
+                margin: '0.9em'
+            },
         }
     }
 

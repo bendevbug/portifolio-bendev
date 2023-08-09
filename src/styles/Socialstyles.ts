@@ -19,10 +19,19 @@ export const Container = styled('main', {
 
         textAlign: 'center',
 
+        '@media (max-width: 900px)': {
+            fontSize: '1.5em'
+        },
+
     },
 
     img: {
         margin: '5rem 3rem 0 0',
+
+        '@media (max-width: 900px)': {
+            width: '4em',
+            margin: '3em 0 0 1em'
+        },
 
         '&:hover': {
             margin: '5rem 3.5rem 0 0',

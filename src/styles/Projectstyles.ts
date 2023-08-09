@@ -24,6 +24,11 @@ export const Container = styled('main', {
         width: '80vw',
         height: '75vh',
 
+        '@media (max-width: 768px)': {
+            flexDirection: 'column',
+            flexWrap: 'nowrap',
+        },
+
         a: {
             textDecoration: 'none',
             color: 'inherit',
@@ -55,13 +60,19 @@ export const Container = styled('main', {
 
             borderRadius: '0.5rem',
 
+
+            '@media (max-width: 768px)': {
+                width: '70vw',
+                flexWrap: 'nowrap'
+            },
+
             h3: {
                 fontSize: '1em',
                 margin: '0 0 0 0.2em',
 
                 color: 'gray',
                 '&:before': {
-                    content: '|'
+                    content: 'by '
                 }
             }
         }
